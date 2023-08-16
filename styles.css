@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heart-container {
+    display: none;
+    font-size: 100px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
